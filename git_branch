@@ -6,3 +6,5 @@ git checkout -b <new branch>  --create new branch
 git branch -d <name>.  --- delete the new branch 
 
 --new line-- for git commit
+
+new line to test merge
