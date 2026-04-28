@@ -22,7 +22,7 @@ git commit -m "commit message" -- to commit the changes to the local repository 
 git push origin main -- to push the changes from local repository to remote repository (github)
 
 git pull origin main -- to pull the changes from remote repository to local repository
-
+ git push -u origin main -- to push the changes to the remote repository and set the upstream branch to main
 
 
 git init -- to initialize a new git repository in your local system
