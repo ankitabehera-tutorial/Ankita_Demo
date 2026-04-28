@@ -1,0 +1,8 @@
+git branch   --to check  branch
+git branch -M main.    -- to rename the branch
+git checkout <branch name>.   --to navigate the branch
+git checkout -b <new branch>  --create new branch
+
+git branch -d <name>.  --- delete the new branch 
+
+--new line-- for git commit
