@@ -1,22 +1,50 @@
 GIT COmmand
 ---------------
 
-git config --global user.name "ankitabehera-tutorial"
+git config --global user.name "ankitabehera-tutorial".   -- to set the global username for git
 
-git config --global user.email "ankita.behera1989@gmail.com"
+git config --global user.email "ankita.behera1989@gmail.com".  -- to set the global email for git
 
-git config --list
-
-
-git version
-
-git clone project_url
+git config --list. -- to check the global configuration settings for git
 
 
-git status
+git version.  --- to check the version of git installed in your system
 
-git add .  or git add file.txt
+git clone project_url    --- to clone the project from git hub to your local system
 
-git commit -m "commit message"
 
-git push origin main
+git status. -- to check the status of the files in your local repository
+
+git add .  or git add file.txt -- to add the files to the staging area
+
+git commit -m "commit message" -- to commit the changes to the local repository with a message
+
+git push origin main -- to push the changes from local repository to remote repository (github)
+
+git pull origin main -- to pull the changes from remote repository to local repository
+
+
+
+git init -- to initialize a new git repository in your local system
+
+git log -- to check the commit history of the repository
+
+git branch -- to check the branches in the repository
+
+git branch branch_name -- to create a new branch in the repository
+
+git checkout branch_name -- to switch to the specified branch
+
+git branch -M main -- to rename the current branch to main
+
+git checkout -b branch_name -- to create a new branch and switch to it
+
+git merge branch_name -- to merge the changes from the specified branch to the current branch
+
+git remote add origin repository_url -- to add a remote repository to your local repository
+
+git remote -v -- to check the remote repositories associated with your local repository
+
+git fetch origin -- to fetch the changes from the remote repository without merging
+
+git 
