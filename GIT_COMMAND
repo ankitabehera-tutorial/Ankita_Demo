@@ -1,0 +1,11 @@
+GIT COmmand
+
+git version
+
+git status
+
+git add .  or git add file.txt
+
+git commit
+
+git push origin main
