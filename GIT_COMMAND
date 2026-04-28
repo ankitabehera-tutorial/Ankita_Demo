@@ -1,11 +1,22 @@
 GIT COmmand
+---------------
+
+git config --global user.name "ankitabehera-tutorial"
+
+git config --global user.email "ankita.behera1989@gmail.com"
+
+git config --list
+
 
 git version
+
+git clone project_url
+
 
 git status
 
 git add .  or git add file.txt
 
-git commit
+git commit -m "commit message"
 
 git push origin main
